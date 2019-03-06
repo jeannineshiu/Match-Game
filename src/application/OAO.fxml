@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" fillWidth="true" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <Label alignment="CENTER" disable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="1.0" text="Match!" underline="false">
+      <font>
+        <Font name="Apple Chancery" size="87.0" />
+      </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.4951923076923077">
+               <stops>
+                  <Stop color="#2493c7" />
+                  <Stop color="#67ffed" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+    </Label>
+    <Button id="start" mnemonicParsing="false" prefHeight="34.0" prefWidth="82.0" text="Play" textFill="#892626">
+      <font>
+        <Font name="Arial Rounded MT Bold" size="23.0" fx:id="x1" />
+      </font>
+      <VBox.margin>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" fx:id="x2" />
+      </VBox.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+    </Button>
+    <Button id="exit" font="$x1" mnemonicParsing="false" prefHeight="44.0" prefWidth="81.0" text="Exit" textFill="#190094" VBox.margin="$x2" />
+  </children>
+</VBox>
