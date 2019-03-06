@@ -5,3 +5,5 @@ Making scenes with JavaFx Scene Builder 2.0.
 ## Game Screenshot
 
 ![image](https://github.com/jeannineshiu/Match-Game/blob/master/menu.png)
+![image](https://github.com/jeannineshiu/Match-Game/blob/master/game.png)
+![image](https://github.com/jeannineshiu/Match-Game/blob/master/finish.png)
