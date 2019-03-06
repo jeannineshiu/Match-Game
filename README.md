@@ -4,6 +4,9 @@ A JavaFx project.
 Making scenes with JavaFx Scene Builder 2.0.
 ## Game Screenshot
 
+
+<img src="https://github.com/jeannineshiu/Match-Game/blob/master/menu.png" width = "500" height = "500" alt="menu.png" align=center />
+
 ![image](https://github.com/jeannineshiu/Match-Game/blob/master/menu.png)
 ![image](https://github.com/jeannineshiu/Match-Game/blob/master/game.png)
 ![image](https://github.com/jeannineshiu/Match-Game/blob/master/finish.png)
